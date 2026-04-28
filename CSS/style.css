@@ -26,3 +26,9 @@ input[type ="text"], input [type="number"],input[type="date"], input[type="file"
 textarea{
     padding: 10px 5px;
 }
+
+.cabecalho {
+    height: 150px;
+    padding: 20px;
+    background-color: cyan;
+}
