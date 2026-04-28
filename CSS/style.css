@@ -30,11 +30,31 @@ textarea{
 .cabecalho {
     height: 150px;
     padding: 20px;
-    background-color: rgb(129, 231, 34);
+    background-color: rgb(121, 240, 24);
 }
  
 .cabecalho h3{
     color: rgb(119, 160, 248);
     margin-top: 0;
+}
 
+.form-container{
+    background-color: rgb(214, 188, 81);
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -46 px;
+}
+
+.form-header{
+    border-bottom: 1px solid rgb(206, 223, 58);
+    height: 45px;
+}
+.form-headerp{
+    color: darkblue;
+    border-bottom: 2px solid cadetblue;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
 }
