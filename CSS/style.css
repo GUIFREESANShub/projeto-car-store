@@ -30,11 +30,11 @@ textarea{
 .cabecalho {
     height: 150px;
     padding: 20px;
-    background-color: cyan;
+    background-color: rgb(156, 235, 30);
 }
  
 .cabecalho h3{
-    color: aqua;
+    color: rgb(119, 160, 248);
     margin-top: 0;
 
 }
