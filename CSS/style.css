@@ -20,4 +20,9 @@ input {
     padding: 10px 0;
 }
 
-input[type ="text"], input [type="number"],
+input[type ="text"], input [type="number"],input[type="date"], input[type="file"], textarea{
+    width: 400px;
+}
+textarea{
+    padding: 10px 5px;
+}
