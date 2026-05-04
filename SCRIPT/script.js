@@ -1,12 +1,8 @@
-function salvarCarros(event){
-    event.preventDefault ();
+function salvarCarros(event) {event.preventDefault();
 
-    let título = document.getElementById('title').value;
+    let titulo = document.getElementById('title').value;
+    let preco = document.getElementById('preco').value;
+    let marca = document.getElementById('marca').value;
+    let modelo = document.getElementById('modelo').value;
 
-    let preco  = document.getElementById('preço').value;
-
-    let marca  = document.getElementById('marca').Value;
-
-    let modelo = document.getElementById('modelo').Value;
-        
 }
