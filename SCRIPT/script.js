@@ -1,5 +1,5 @@
 function salvarCarros(event) {
-    //impedir de recarregar a página
+    
     event.preventDefault();
 
     let titulo = document.getElementById('title').value;
@@ -48,4 +48,6 @@ window.onload = function () {
     let carros = JSON.parse(localStorage.getItem("carros")) || [];
 
     carros.forEach(carro => {
-        adicionarNaTela(carro);
+        adicionarNaTela(carro)
+    });
+}
